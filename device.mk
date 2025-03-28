@@ -136,10 +136,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -324,10 +320,6 @@ PRODUCT_COPY_FILES += \
 # Thermal HAL
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
-
-# TimeKeep
-PRODUCT_PACKAGES += \
-    TimeKeep
 
 # UFFD GC
 OVERRIDE_ENABLE_UFFD_GC := false
