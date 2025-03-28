@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixelage_miatoll.mk
+    $(LOCAL_DIR)/aospb_miatoll.mk
